@@ -1,0 +1,123 @@
+body, html {
+    background-image:linear-gradient(to right,lightblue,lightpink);
+    
+}
+#navbarNav {
+    margin-left:65vw;
+}
+
+section {
+    background-color:rgb(224, 222, 222,0.75);
+    width:28vw;
+    height:35vw;
+    z-index:0;
+    margin-left:35%;
+    margin-right:45%;
+    margin-top:3vw;
+    border-radius: 3vw;
+}
+
+section h2, #sec2 h2 {
+    margin-left:12vw;
+    padding-top:2vw;
+    font-size: 2vw;
+    font-family: cursive;
+
+}
+
+section label, #sec2 label {
+    margin-left:2vw;
+    text-align: left;
+    width:7vw;
+    font-family: cursive;
+}
+
+section button, #sec2 button {
+    margin-left:8vw;
+    width:12vw;
+    border-radius: 2vw;
+    padding-bottom:0.5vw;
+    background-image:linear-gradient(to right,lightblue,lightpink);
+    color:black;
+    font-family: cursive;
+
+}
+
+section button:hover, #sec2 button:hover {
+    cursor:pointer;
+}
+
+section form, #sec2 form {
+    padding-top:1vw;
+}
+
+section input, #sec2 input {
+    border-radius: 3vw;
+    text-align: left;
+    margin-left: 6vw;
+    width:20vw;
+    font-family: cursive;
+    padding-left:1vw;
+
+}
+
+section #but {
+    text-decoration: none;
+    margin-left:11.5vw;
+    color:black;
+    font-family: cursive;
+}
+
+section #or {
+    padding-top: 2vw;
+    text-align: center;
+}
+
+section #but:hover, #sec2 #but:hover {
+    color:blue;
+    cursor:pointer;
+}
+
+
+#sec2 {
+    background-color:rgb(224, 222, 222,0.75);
+    width:28vw;
+    height:45vw;
+    z-index:0;
+    margin-left:35%;
+    margin-right:45%;
+    margin-top:2vw;
+    border-radius: 3vw;
+}
+
+#sec2 label {
+    margin-left:2vw;
+    text-align: left;
+    width:12vw;
+    font-family: cursive;
+    
+}
+
+#sec2 h2 {
+    margin-left:10vw;
+    padding-top:2vw;
+    font-size: 2vw;
+    font-family: cursive;
+
+}
+
+#sec2 #or {
+    padding-top: 0vw;
+    text-align: center;
+}
+
+#sec2 #but {
+    text-decoration: none;
+    margin-left:12vw;
+    color:black;
+    font-family: cursive;
+}
+
+.info {
+    text-align: center;
+}

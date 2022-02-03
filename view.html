@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Game{% endblock %}
+
+
+{% block content %}
+{% for item in values %}
+<p>{{item.id}}</p>
+<P>{{item.name}}</P>
+<P>{{item.email}}</P>
+<P>{{item.password}}</P>
+{% endfor%}
+
+
+{% endblock %}

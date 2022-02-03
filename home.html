@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Game{% endblock %}
+
+
+{% block content %}
+{% with messages = get_flashed_messages(with_categories=true)%}
+    {% if messages %}
+    {% for category, msg in messages %}
+    <p class="{{ category }}">{{msg}}</p>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+<section>
+    <h2><b>Login</b></h2>
+    <form action="#" method="post">
+        <label for="email">Email: </label><br>
+        <input type="email" required name="em1" /><br><br>
+        <label for="pass">Password: </label><br>
+        <input type="password" required name="pass2" /><br><br>
+        <button type="submit"><b>Login</b></button>
+
+    </form>
+    <p id="or"><b>or</b></p><a type="submit" id="but" href="SignUp"><b>Sign Up</b></a>
+</section>
+
+
+{% endblock %}
